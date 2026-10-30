@@ -354,7 +354,7 @@ footer{background:var(--g9);color:var(--cream);padding:70px 0 40px}
       <a href="#passo" class="rv"><span class="n">01</span><h3>Limpar</h3><p>Folhas, galhos e poeira saem com vassoura de cerdas sintéticas macias. Manchas: água e sabão neutro, enxaguando bem.</p><span class="go">Ver o passo a passo →</span></a>
       <a href="#passo" class="rv d1"><span class="n">02</span><h3>Escovar</h3><p>De tempos em tempos, conforme o uso e a sujeira, sempre contra o sentido em que os fios deitam. É o que mantém a grama com cara de nova.</p><span class="go">Ver como escovar →</span></a>
       <a href="#posso" class="rv d2"><span class="n">03</span><h3>Proteger</h3><p>Longe de brasas, churrasqueira, velas e reflexo de vidros. Sem solventes, tintas ou escova de aço.</p><span class="go">Posso ou não posso? →</span></a>
-      <a href="#problemas" class="rv d3"><span class="n">04</span><h3>Água da chuva</h3><p>A água escoa pela própria grama. Poça que não some pede uma olhada na base.</p><span class="go">Notei algo na grama →</span></a>
+      <a href="#problemas" class="rv d3"><span class="n">04</span><h3>Água da chuva</h3><p>A grama deixa a água passar, mas o escoamento depende da base e do caimento do piso.</p><span class="go">Notei algo na grama →</span></a>
     </div>
   </div>
 </section>
@@ -619,7 +619,7 @@ var spy=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInte
     n:["Escova de aço ou qualquer ferramenta de ponta, cortante ou abrasiva","Arrastar objetos pesados para recolher a sujeira"]},
    manchas:{t:"Manchas",d:"Quanto mais cedo você limpar, mais fácil sai.",
     s:["Retire o excesso do que caiu, sem esfregar para dentro dos fios.","Aplique água abundante e sabão neutro.","Enxágue bem com água limpa, até sair todo o sabão.","Deixe secar e escove os fios no fim, contra o sentido."],
-    u:["Se for tinta ou verniz, não use solvente: fale com a BrasilGrass antes de tentar remover.","Respingos de cloro de piscina e produtos químicos: enxágue na hora, com bastante água."],
+    u:["Evite tintas e vernizes sobre a grama: podem manchar e danificar os fios.","Respingos de cloro de piscina e produtos químicos: enxágue na hora, com bastante água."],
     n:["Thinner, acetona, gasolina e álcool concentrado","Alvejante com cloro, ácidos e bases fortes","Esfregar com escova metálica ou abrasivos"]},
    lavagem:{t:"Lavagem",d:"Para uma limpeza mais completa de vez em quando.",
     s:["Molhe a área com mangueira para soltar a poeira.","Se for usar lavadora de alta pressão, abra o jato em leque.","Mantenha a lavadora a 1 metro ou mais da grama.","Tenha cuidado extra em emendas e bordas, e enxágue no final."],
@@ -656,11 +656,11 @@ var spy=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInte
    ["Vassoura de cerdas macias","yes","Ótima para folhas, galhos e poeira. Use vassoura de cerdas sintéticas macias."],
    ["Escova de aço","no","Escova metálica é abrasiva e danifica as fibras. Prefira vassoura de cerdas sintéticas macias ou escova própria para grama sintética."],
    ["Thinner, acetona ou gasolina","no","Solventes danificam as fibras. Evite também álcool concentrado, óleos, alvejante com cloro, ácidos e bases fortes."],
-   ["Tinta ou verniz","no","Tintas e vernizes mancham e danificam. Proteja a área ao pintar por perto e, se cair tinta, fale com a BrasilGrass antes de tentar remover."],
+   ["Tinta ou verniz","no","Tintas e vernizes mancham e danificam os fios. Proteja bem a área ao pintar por perto."],
    ["Água de piscina (cloro)","care","Cloro em exposição prolongada pode manchar ou degradar as fibras. Respingos acontecem: enxágue logo com água limpa e abundante."],
    ["Adubo, fertilizante ou pesticida","care","Em contato prolongado podem manchar ou alterar a cor. Se houver contato, enxágue imediatamente com bastante água."],
    ["Salto fino ou chuteira de trava","no","Saltos finos e travas altas (como as de chuteira de campo) podem perfurar ou arrancar as fibras. Para jogar bola, prefira tênis ou calçado sem trava."],
-   ["Passar ou estacionar veículo","no","O tráfego de veículos automotores não é indicado para esta grama."],
+   ["Passar ou estacionar veículo","care","Manobrar com cuidado, sem giro brusco das rodas, é possível. Estacionar sobre a grama deve ser evitado: o peso marca e pode danificar os fios."],
    ["Pets","care","Em áreas pet, confirme antes se a linha é adequada. Recolha as fezes logo e enxágue a urina. Produtos adicionais só com indicação técnica."],
    ["Crianças brincando","care","Sim, crianças podem brincar na grama indicada para esse ambiente. Porém, a grama, sozinha, não oferece proteção contra quedas nem substitui um piso de amortecimento adequado sob brinquedos. Ao sol, confira a temperatura antes do uso."],
    ["Reflexo de janela ou espelho","care","Reflexos concentrados podem gerar calor suficiente para derreter as fibras. Se a sua grama fica perto de vidros ou superfícies espelhadas, fale com a gente."]
@@ -680,7 +680,7 @@ var spy=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInte
   var D=[
    ["Fios achatados ou deitados","ok","Dá para resolver em casa","Isso é comum","Com o uso, os fios acomodam e achatam. Escove contra o sentido de deitamento, com cerdas sintéticas macias. Marcas leves de compressão saem com escovação e sol. Se foi vaso ou móvel, mude de lugar e use chapa ou protetor para distribuir o peso."],
    ["Sujeira, folhas e poeira","ok","Dá para resolver em casa","Limpeza simples","Retire folhas e galhos e passe vassoura de cerdas macias."],
-   ["Uma mancha apareceu","ok","Dá para resolver em casa","Vale tentar a limpeza","Use água abundante e sabão neutro e enxágue bem. Se foi produto químico, enxágue na hora com bastante água. Se for tinta ou verniz, não use solvente: fale com a gente antes."],
+   ["Uma mancha apareceu","ok","Dá para resolver em casa","Vale tentar a limpeza","Use água abundante e sabão neutro e enxágue bem. Se foi produto químico, enxágue na hora com bastante água. "],
    ["Cor opaca ou desbotando","ev","Vale uma olhada","Comece pela limpeza","Poeira acumulada deixa a cor opaca: faça uma limpeza completa com água e sabão neutro. Se houve contato com tinta, fertilizante ou químicos, enxágue. Se o desbotamento for acentuado, mande fotos para avaliarmos."],
    ["Cheiro ou urina de pet","ev","Vale uma olhada","Aja logo","Em áreas pet compatíveis com a linha, recolha as fezes logo e enxágue a urina com bastante água. Produtos adicionais só com indicação técnica: fale com a gente."],
    ["Poça de água que não some","ev","Vale uma olhada","Costuma vir da base","Poça que não some costuma estar ligada à base ou ao caimento do piso. A base e a drenagem precisam de avaliação: fale com a gente."],
@@ -707,7 +707,7 @@ var spy=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInte
    ["Limpeza","Como limpar a grama?","Retire folhas, galhos e poeira com vassoura de cerdas macias. Para manchas, use água abundante e sabão neutro e enxágue bem."],
    ["Limpeza","Posso usar lavadora de alta pressão?","Pode, a pelo menos 1 metro de distância e com jato aberto em leque. Nunca jato concentrado, principalmente em emendas e bordas."],
    ["Limpeza","Que produtos nunca devo usar?","Thinner, acetona, gasolina, álcool concentrado, óleos, abrasivos, escova metálica, alvejante com cloro, ácidos, bases fortes, tintas e vernizes. Use só água, sabão neutro ou produtos indicados pela BrasilGrass."],
-   ["Limpeza","Como tiro uma mancha?","Água abundante e sabão neutro, enxaguando bem no fim. Se foi um produto químico, enxágue na hora. Se for tinta ou verniz, não use solvente: fale com a gente antes."],
+   ["Limpeza","Como tiro uma mancha?","Água abundante e sabão neutro, enxaguando bem no fim. Se foi um produto químico, enxágue na hora. "],
    ["Limpeza","Piscina e adubo estragam a grama?","Exposição prolongada a cloro, fertilizantes e pesticidas pode manchar ou degradar as fibras. Em caso de contato, enxágue logo com água limpa e abundante."],
    ["Escovação","Com que frequência preciso escovar?","Não existe um prazo fixo: depende do uso, da quantidade de folhas e poeira e do sol que a área recebe. Quando os fios começarem a deitar, é hora de escovar. Em áreas de mais uso ou mais sujeira, escove com mais frequência."],
    ["Escovação","Por que escovar contra o sentido dos fios?","Porque levanta os fios e mantém as fibras eretas, preservando a aparência natural da grama. A favor do sentido, os fios continuam deitados."],
@@ -719,10 +719,11 @@ var spy=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInte
    ["Proteção","Posso jogar bola (futebol, futevôlei) na grama?","Pode, para uso recreativo em casa, com os devidos cuidados: prefira tênis ou calçado sem trava e escove os fios com mais frequência, porque o pisoteio concentra desgaste nos pontos de mais uso. Não é recomendada para uso profissional, competitivo ou de treino intenso: para isso, existe a linha esportiva."],
    ["Dia a dia","A grama esquenta no sol?","Sim, a superfície aquece. Confira a temperatura antes do contato de crianças e animais."],
    ["Dia a dia","Tenho cachorro. Como cuido?","Em áreas pet compatíveis com a linha, recolha as fezes logo e enxágue a urina com água. Produtos adicionais só com indicação técnica."],
+   ["Dia a dia","Posso estacionar ou manobrar o carro sobre a grama?","O ideal é manobrar com cuidado, sem giro brusco das rodas. Estacionar é melhor evitar: o peso do veículo parado marca a grama e pode danificar os fios."],
    ["Dia a dia","Cai muita folha no meu jardim. O que faço?","Retire com vassoura de cerdas macias sempre que juntar, para não manchar nem deixar cheiro."],
-   ["Dia a dia","A água da chuva escoa sozinha?","Sim, a água atravessa a grama e escoa pela base. Se ficar poça depois da chuva, a base e a drenagem precisam de avaliação: fale com a gente."],
+   ["Dia a dia","A água da chuva escoa sozinha?","A grama permite a passagem da água, mas o escoamento depende da base e do caimento do piso. Se o piso já empoça, a instalação da grama, sozinha, não resolve."],
    ["Dia a dia","Quem faz a manutenção?","Você mesmo. É simples e não precisa de profissional: limpeza, escovação e atenção à drenagem."],
-   ["Dia a dia","Posso pintar ou passar verniz perto da grama?","Pode, protegendo a área. Tintas e vernizes mancham e danificam as fibras. Se cair tinta, fale com a gente antes de tentar remover."]
+   ["Dia a dia","Posso pintar ou passar verniz perto da grama?","Pode, protegendo bem a área. Tintas e vernizes mancham e danificam as fibras: evite que caiam sobre a grama."]
   ];
   var cats=["Todas"].concat(Q.reduce(function(a,q){if(a.indexOf(q[0])<0)a.push(q[0]);return a},[]));
   var cur="Todas",qa=$("#qa"),cnt=$("#cnt"),inp=$("#q"),cbox=$("#cats");
